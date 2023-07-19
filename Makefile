@@ -2,7 +2,7 @@ CC=gcc
 TARGET=main
  
 all:
-	$(CC) *.c -o $(TARGET)
+	$(CC) src/*.c -o $(TARGET)
  
 clean:
 	rm $(TARGET)

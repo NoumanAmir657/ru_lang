@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "memory.h"
-#include "object.h"
-#include "value.h"
-#include "vm.h"
-#include "table.h"
+#include "../headers/memory.h"
+#include "../headers/object.h"
+#include "../headers/value.h"
+#include "../headers/vm.h"
+#include "../headers/table.h"
 
 // macro for allocating object
 #define ALLOCATE_OBJ(type, objectType)  \

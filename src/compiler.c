@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#include "common.h"
-#include "object.h"
-#include "scanner.h"
-#include "chunk.h"
 #include "string.h"
-#include "memory.h"
+
+#include "../headers/common.h"
+#include "../headers/object.h"
+#include "../headers/scanner.h"
+#include "../headers/chunk.h"
+
+#include "../headers/memory.h"
 
 #ifdef DEBUG_PRINT_CODE
 #include "debug.h"

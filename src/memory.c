@@ -1,8 +1,8 @@
 #include <stdlib.h>
 
-#include "memory.h"
-#include "vm.h"
-#include "compiler.h"
+#include "../headers/memory.h"
+#include "../headers/vm.h"
+#include "../headers/compiler.h"
 
 #ifdef DEBUG_LOG_GC
     #include <stdio.h>

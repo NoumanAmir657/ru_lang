@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "debug.h"
-#include "object.h"
-#include "value.h"
+
+#include "../headers/debug.h"
+#include "../headers/object.h"
+#include "../headers/value.h"
 
 int getLine(Chunk* chunk, int index) {
     if (index == 0) {return 1;}

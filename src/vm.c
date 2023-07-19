@@ -3,12 +3,12 @@
 #include <string.h>
 #include <time.h>
 
-#include "common.h"
-#include "vm.h"
-#include "debug.h"
-#include "compiler.h"
-#include "object.h"
-#include "memory.h"
+#include "../headers/common.h"
+#include "../headers/vm.h"
+#include "../headers/debug.h"
+#include "../headers/compiler.h"
+#include "../headers/object.h"
+#include "../headers/memory.h"
 
 VM vm;
 
