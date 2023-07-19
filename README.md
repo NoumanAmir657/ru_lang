@@ -133,3 +133,6 @@ durust
 ```
 glt
 ```
+
+## References
+[Crafting Interpreters](https://craftinginterpreters.com/)
