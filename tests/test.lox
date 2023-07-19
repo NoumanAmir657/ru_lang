@@ -35,3 +35,13 @@ jbtk (i < 5) {
     chhaap i;
     i <- i + 1;
 }
+
+khaaka C {
+    method() {
+        chhaap this.name;
+    }
+}
+
+elaan c <- C();
+c.name <- "ha ha ha";
+c.method();
