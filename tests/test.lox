@@ -23,7 +23,7 @@ tafaaul loop(number) {
 
 chhaap loop(5);
 
-agr (false) {
+agr (glt) {
     chhaap "nouman";
 }
 warna {

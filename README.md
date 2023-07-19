@@ -125,3 +125,11 @@ khaaka B -> A {
 elaan b <- B();
 b.method();
 ```
+### True
+```
+durust
+```
+### False
+```
+glt
+```

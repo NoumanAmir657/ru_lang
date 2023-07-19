@@ -123,12 +123,14 @@ static TokenType identifierType() {
             if (scanner.current - scanner.start > 1) {
                 switch (scanner.start[1]) {
                     case 'h': return checkKeyword(2, 2, "is", TOKEN_THIS);
-                    case 'r': return checkKeyword(2, 2, "ue", TOKEN_TRUE);
                     case 'a': return checkKeyword(2, 5, "faaul", TOKEN_FUN);
                 }
             }
             break;
-        }
+        
+        case 'd': return checkKeyword(1, 5, "urust", TOKEN_TRUE);
+        case 'g': return checkKeyword(1, 2, "lt", TOKEN_FALSE);
+    }
 
     return TOKEN_IDENTIFIER;
 }
