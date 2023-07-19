@@ -46,11 +46,11 @@ shoro (elaan i <- 0; i < number; i <- i + 1) {
 ```
 ### If-else
 ```
-agr (false) {
-    chhaap "nouman";
+agr (glt) {
+    chhaap "hhaha";
 }
 warna {
-    chhaap "amir";
+    chhaap "heheh";
 }
 ```
 
