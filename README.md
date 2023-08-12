@@ -1,6 +1,6 @@
 # RU-Language
 ## Introduction
-RU-Language is a programming language written in C. It uses bytecode and VM to execute the instructions. RU-Lang is dynamically-typed and object-oriented language.
+RU-Language is a programming language written in C. It uses bytecode and VM to execute the instructions. RU-Lang is dynamically-typed and object-oriented language. The keywords used in this language's grammar are taken from the Roman Urdu.
 
 ## Build
 ```
