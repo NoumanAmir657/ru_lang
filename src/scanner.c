@@ -130,6 +130,8 @@ static TokenType identifierType() {
         
         case 'd': return checkKeyword(1, 5, "urust", TOKEN_TRUE);
         case 'g': return checkKeyword(1, 2, "lt", TOKEN_FALSE);
+
+        case 'i': return checkKeyword(1, 5, "mport", TOKEN_IMPORT);
     }
 
     return TOKEN_IDENTIFIER;

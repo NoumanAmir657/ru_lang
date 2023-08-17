@@ -940,9 +940,17 @@ static void synchronize() {
     }
 }
 
+static void import() {
+    advance();
+    consume(TOKEN_SEMICOLON, "Expect ';' after import.");
+}
+
 static void declaration() {
     if (match(TOKEN_VAR)) {
         varDeclaration();
+    }
+    else if (match(TOKEN_IMPORT)) {
+        import();
     }
     else if (match(TOKEN_CLASS)) {
         classDeclaration();

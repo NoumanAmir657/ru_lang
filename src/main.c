@@ -6,6 +6,7 @@
 #include "../headers/chunk.h"
 #include "../headers/debug.h"
 #include "../headers/vm.h"
+#include "../headers/preprocessor.h"
 
 static void repl() {
     char line[1024];
@@ -46,6 +47,10 @@ static char* readFile(const char* path) {
 
 static void runFile(const char* path) {
     char* source = readFile(path);
+    source = preprocess(source);
+
+    // printf("%s \n", source);
+
     InterpretResult result = interpret(source);
     free(source);
     if (result == INTERPRET_COMPILE_ERROR) exit(65);

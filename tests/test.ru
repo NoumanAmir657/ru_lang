@@ -1,3 +1,6 @@
+import "./tests/hello.ru";
+import "./tests/help.ru";
+
 khaaka A {
     method() {
         chhaap "A";
