@@ -1,12 +1,6 @@
 import "./tests/hello.ru";
 import "./tests/help.ru";
 
-khaaka A {
-    method() {
-        chhaap "A";
-    }
-}
-
 khaaka B -> A {
     method() {
         elaan closure <- super.method;
